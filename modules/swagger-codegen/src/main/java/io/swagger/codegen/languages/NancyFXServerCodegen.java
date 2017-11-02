@@ -140,6 +140,7 @@ public class NancyFXServerCodegen extends AbstractCSharpCodegen {
         }
 
         additionalProperties.put("packageGuid", packageGuid);
+        additionalProperties.put("asyncServer", asyncServer);
 
         setupModelTemplate();
         processImportedMappings();
